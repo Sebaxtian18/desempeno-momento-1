@@ -1,0 +1,77 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.main{
+  width: 100%;
+  height: 100vh;
+  padding: 10px 0;
+}
+
+.main header{
+  width: 95%;
+  height: 120px;
+  background-color: papayawhip;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.main-contenido-principal{
+  width: 95%;
+  height: calc(100% - 120px);
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.main-contenido-principal aside{
+  width: 350px;
+  height: 100%;
+  background-color: beige;
+  border: 1px solid black;
+}
+
+.main-panel-contenido{
+  width: calc(100% - 360px);
+  height: 100%;
+}
+
+.panel-contenido-baner{
+  width: 100%;
+  height: 160px;
+  background-color: antiquewhite;
+  border: 1px solid black;
+}
+
+.panel-contenido-segunda-fila{
+  width: 100%;
+  height: 160px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.panel-contenido-recuadro{
+  width: calc(50% - 5px);
+  height: 150px;
+  background-color: antiquewhite;
+  border: 1px solid black;
+}
+
+.panel-contenido-tercera-fila{
+  width: 100%;
+  height: 270px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.panel-contenido-card{
+  width: 350px;
+  height: 100%;
+  background-color: antiquewhite;
+  border: 1px solid black;
+}
